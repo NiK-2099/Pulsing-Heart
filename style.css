@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    width: 20rem;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-top: 10rem
+}
+
+.grid {
+    text-align: center;
+    opacity: 0;
+    text-decoration-skip: none;
+}
+
+.red{
+    background-color: red;
+}
+.container:hover .grid{
+    opacity: 1;
+}
+
+.one{
+    transition: 1s
+}
+
+.two{
+    transition: 2s;
+}
+
+.three{
+    transition: 3s;
+}
+
+.four{
+    transition: 4s;
+}
+
+.five{
+    transition: 5s;
+}
